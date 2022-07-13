@@ -6,3 +6,5 @@ class Products(admin.ModelAdmin):
     list_display_links = ('name', 'quantidade')
     search_fields = ('name',)
 
+admin.site.register(Product, Products)
+
