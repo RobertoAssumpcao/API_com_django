@@ -7,4 +7,4 @@ from mercado.models import Product
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        Field = ['id', 'name', 'quantidade']
+        fields = ['id', 'name', 'quantidade']
